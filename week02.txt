@@ -4,6 +4,8 @@ week02
   pwd, cd .git, cd.., touch week01.txt
   vi week01.txt, vi week02.txt, 
   yy, p
+  echo "sdadsddssda" >> README.md
+  cat README.md
 
 - git commands
   git init
@@ -11,4 +13,7 @@ week02
   git add week01.txt
   git config --global user.email ""
   git config --global user.name ""
-  git 
+  git branch -M main
+  git remote add origin https://github.com/2020136022SHINGU/test.git
+  git push -u origin main
+ 
